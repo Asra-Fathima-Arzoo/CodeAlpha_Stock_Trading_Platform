@@ -29,7 +29,9 @@ It allows users to view live-updating stock prices, buy/sell stocks, track their
    javac StockTradingGUI.java
 4. Run the program:
    java StockTradingGUI
-🛠️ How It Works
+
+###🛠️ **How It Works**
+
 1. When launched, the application shows the stock market table with initial prices:
    AAPL: $150
    GOOG: $2800
@@ -43,23 +45,25 @@ It allows users to view live-updating stock prices, buy/sell stocks, track their
 
 4. Portfolio and transaction history update instantly after each trade.
 
-📸 Example Usage
-Initial State
+###📸 Example Usage
+```Initial State
   Portfolio:
   Cash: $10000.00
 
   Transactions:
   (no transactions yet)
+```
 
-After Buying 5 AAPL @ $151.23
+```After Buying 5 AAPL @ $151.23
   Portfolio:
   AAPL: 5 shares @ $151.23
   Cash: $9243.85
 
   Transactions:
   [Date] - BUY 5 of AAPL @ $151.23
+```
 
-📄 License
+###📄 License
 This project is for educational/demo purposes and is not intended for real trading.
 
 -By Asra Fathima Arzoo
